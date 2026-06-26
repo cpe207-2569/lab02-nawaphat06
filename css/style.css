@@ -21,6 +21,7 @@ body {
 
 .profile_pic {
   height: 300px;
+  width: auto;
 }
 
 .profile_data {

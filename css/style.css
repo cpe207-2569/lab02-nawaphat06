@@ -10,3 +10,19 @@ body {
   justify-content: center; /*จัดตำแหน่งแนวนอนweb */
   font-size: 40px;
 }
+
+.profile_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /*แยกซ้ายขวา*/
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.profile_pic {
+  height: 300px;
+}
+
+.profile_data {
+  max-width: 50%;
+}

@@ -1,0 +1,12 @@
+body {
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.portfolio_header {
+  display: flex;
+  align-items: center; /*จัดใให้อยู่กลางแนวตั้ง div */
+  justify-content: center; /*จัดตำแหน่งแนวนอนweb */
+  font-size: 40px;
+}

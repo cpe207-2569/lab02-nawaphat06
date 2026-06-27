@@ -26,6 +26,11 @@ body {
   color: aquamarine;
 }
 
+.navbar .logo a {
+  color: aquamarine;
+  text-decoration: none;
+}
+
 .navbar .menu a {
   /* เฉพาะ <a> ใน class menu */
   color: rgb(255, 255, 255);
@@ -76,19 +81,20 @@ body {
 
 /* 3.skill */
 .index_skill_title h1 {
-  font-size: 26px;
-  text-align: center;
-  color: rgb(218, 40, 40);
+  font-size: 34px;
+  color: aliceblue;
   padding-right: 10px;
 }
 
 .index_skill_card h2 {
   color: rgb(115, 214, 181);
+  font-style: italic;
 }
 
 .index_skill_card h3 {
   color: rgb(188, 188, 178);
   text-indent: 30px;
+  font-style: italic;
 }
 
 .index_skill_container {
@@ -116,4 +122,9 @@ body {
 .img_award img {
   object-fit: cover;
   border-radius: 4px;
+}
+
+/* contact */
+.link_email {
+  color: rgb(188, 188, 178);
 }

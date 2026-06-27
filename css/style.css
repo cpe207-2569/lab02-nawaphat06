@@ -1,29 +1,41 @@
+/* element ทั้งหมด */
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Kanit", sans-serif;
-  font-weight: 100;
-  font-style: normal;
+  background-color: rgb(22, 22, 22);
 }
 
-.portfolio_header {
+/* 1_navbar */
+.navbar {
   display: flex;
-  align-items: center; /*จัดใให้อยู่กลางแนวตั้ง div */
-  justify-content: center; /*จัดตำแหน่งแนวนอนweb */
-  font-size: 40px;
+  justify-content: space-between; /*แยกซ้ายขวา */
+  align-items: center; /* กึ่งกลางบน-ล่าง */
+  background-color: rgb(11, 11, 11);
+  padding: 20px 50px;
+  border-width: 2px;
+  border-bottom: solid;
+  border-color: rgb(61, 61, 61);
 }
 
-.profile_div {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; /*แยกซ้ายขวา*/
-  padding-right: 100px;
-  padding-left: 100px;
+.navbar .logo {
+  font-size: 24px;
+  font-weight: 750;
+  color: rgb(38, 222, 222);
 }
 
-.profile_pic {
-  height: 300px;
-  width: auto;
+/* เฉพาะ <a> ใน class menu */
+.navbar .menu a {
+  color: rgb(255, 255, 255);
+  text-decoration: none; /* ทำให้สี link หาย */
+  margin-left: 25px;
+  font-weight: 450;
 }
 
-.profile_data {
-  max-width: 50%;
+/* active = อยู่pageนั้น, hover = เม้าชี้ */
+.navbar .menu a.active,
+.navbar .menu a:hover {
+  color: rgb(255, 234, 5);
 }
